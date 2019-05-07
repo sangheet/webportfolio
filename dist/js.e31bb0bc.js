@@ -38617,6 +38617,8 @@ module.exports = "/3.c3048ff6.jpg";
 module.exports = "/4.d5a7a1c9.jpg";
 },{}],"../images/5.jpg":[function(require,module,exports) {
 module.exports = "/5.e4613769.jpg";
+},{}],"../images/6.jpg":[function(require,module,exports) {
+module.exports = "/6.d3d5ec6f.jpg";
 },{}],"../node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
 
 },{}],"index.js":[function(require,module,exports) {
@@ -38637,6 +38639,8 @@ var _3 = _interopRequireDefault(require("../images/3.jpg"));
 var _4 = _interopRequireDefault(require("../images/4.jpg"));
 
 var _5 = _interopRequireDefault(require("../images/5.jpg"));
+
+var _6 = _interopRequireDefault(require("../images/6.jpg"));
 
 var _fs = require("fs");
 
@@ -38662,11 +38666,18 @@ var slidesData = [{
 }, {
   image: _4.default,
   title: "Pamplona",
-  meta: "Spain / Navarre"
+  meta: "Spain / Navarre",
+  more: "a4.html"
 }, {
   image: _5.default,
   title: "Bilbao",
-  meta: "Spain / Biscay"
+  meta: "Spain / Biscay",
+  more: "a5.html"
+}, {
+  image: _6.default,
+  title: "Bilbao",
+  meta: "Spain / Biscay",
+  more: "a5.html"
 }];
 var slides = new _Slides.Slides(slidesData);
 var showcase = new _Showcase.Showcase(slidesData, {
@@ -38702,7 +38713,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", function (ev) {
   showcase.onMouseMove(ev);
 });
-},{"./Showcase":"Showcase.js","./Slides":"Slides.js","./Cursor":"Cursor.js","../images/1.jpg":"../images/1.jpg","../images/2.jpg":"../images/2.jpg","../images/3.jpg":"../images/3.jpg","../images/4.jpg":"../images/4.jpg","../images/5.jpg":"../images/5.jpg","fs":"../node_modules/parcel-bundler/src/builtins/_empty.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Showcase":"Showcase.js","./Slides":"Slides.js","./Cursor":"Cursor.js","../images/1.jpg":"../images/1.jpg","../images/2.jpg":"../images/2.jpg","../images/3.jpg":"../images/3.jpg","../images/4.jpg":"../images/4.jpg","../images/5.jpg":"../images/5.jpg","../images/6.jpg":"../images/6.jpg","fs":"../node_modules/parcel-bundler/src/builtins/_empty.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -38730,7 +38741,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65312" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54410" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

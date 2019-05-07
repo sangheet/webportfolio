@@ -6,6 +6,7 @@ import image2 from '../images/2.jpg';
 import image3 from '../images/3.jpg';
 import image4 from '../images/4.jpg';
 import image5 from '../images/5.jpg';
+import image6 from '../images/6.jpg';
 import { link } from "fs";
 
 const container = document.getElementById("app");
@@ -32,12 +33,20 @@ const slidesData = [
   {
     image: image4,
     title: "Pamplona",
-    meta: "Spain / Navarre"
+    meta: "Spain / Navarre",
+    more: "a4.html"
   },
   {
     image: image5,
     title: "Bilbao",
-    meta: "Spain / Biscay"
+    meta: "Spain / Biscay",
+    more: "a5.html"
+  },
+  {
+    image: image6,
+    title: "Bilbao",
+    meta: "Spain / Biscay",
+    more: "a5.html"
   }
 ];
 
