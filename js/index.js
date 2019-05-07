@@ -44,8 +44,8 @@ const slidesData = [
   },
   {
     image: image6,
-    title: "Bilbao",
-    meta: "Spain / Biscay",
+    title: "Taboole",
+    meta: "Morroco / Marrakesh",
     more: "a5.html"
   }
 ];

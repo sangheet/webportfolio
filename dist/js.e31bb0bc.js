@@ -38675,8 +38675,8 @@ var slidesData = [{
   more: "a5.html"
 }, {
   image: _6.default,
-  title: "Bilbao",
-  meta: "Spain / Biscay",
+  title: "Taboole",
+  meta: "Morroco / Marrakesh",
   more: "a5.html"
 }];
 var slides = new _Slides.Slides(slidesData);
