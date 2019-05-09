@@ -38678,6 +38678,11 @@ var slidesData = [{
   title: "Taboole",
   meta: "Morroco / Marrakesh",
   more: "a5.html"
+}, {
+  image: _3.default,
+  title: "Krashmash",
+  meta: "India / Banjeera",
+  more: "a6.html"
 }];
 var slides = new _Slides.Slides(slidesData);
 var showcase = new _Showcase.Showcase(slidesData, {
@@ -38741,7 +38746,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58939" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50451" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -7,6 +7,7 @@ import image3 from '../images/3.jpg';
 import image4 from '../images/4.jpg';
 import image5 from '../images/5.jpg';
 import image6 from '../images/6.jpg';
+import image7 from '../images/3.jpg';
 import { link } from "fs";
 
 const container = document.getElementById("app");
@@ -47,6 +48,12 @@ const slidesData = [
     title: "Taboole",
     meta: "Morroco / Marrakesh",
     more: "a5.html"
+  },
+  {
+    image: image7,
+    title: "Krashmash",
+    meta: "India / Banjeera",
+    more: "a6.html"
   }
 ];
 

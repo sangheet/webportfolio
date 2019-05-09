@@ -4,7 +4,7 @@
   "description": "A deconstruction of ultranoir's WebGL project showcase",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./js/parcel.html --open",
+    "start": "parcel ./js/index.html --open",
     "build": "parcel build ./js/index.js --public-url ./dist/"
   },
   "repository": {
