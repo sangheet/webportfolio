@@ -79,6 +79,10 @@ a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
+	background: #000000d9;
+    padding: 5px;
+    display: flex;
+    border-radius: 20px;
 }
 
 a:hover,

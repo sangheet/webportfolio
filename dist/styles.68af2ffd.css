@@ -5,7 +5,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #131319;
+	background-color: #aeaeb6;
 }
 
 canvas {
@@ -63,6 +63,9 @@ canvas {
 .show-meta .slide-more {
 	opacity: 1;
 	transition: opacity 1500ms 300ms cubic-bezier(0.2,1,0.3,1);
+	background: #000000cf;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .slide-more {
@@ -81,6 +84,11 @@ canvas {
 	font-family: gibbs, sans-serif;
 	font-weight: 900;
 	transition: color 500ms cubic-bezier(0.2,1,0.3,1);
+	text-shadow: 5px 5px #00000091;
+	-webkit-text-stroke-color: #3e4b7d;
+	-webkit-text-stroke-width: 3px;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .prev, 

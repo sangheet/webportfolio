@@ -1,7 +1,7 @@
 {
-  "name": "ultranoir-deconstruction",
+  "name": "NorbisMagallanesWebPortfolio",
   "version": "1.0.0",
-  "description": "A deconstruction of ultranoir's WebGL project showcase",
+  "description": "Web Design and Showcase for Norbis Magallanes Work",
   "main": "index.js",
   "scripts": {
     "start": "parcel ./js/index.html --open",
